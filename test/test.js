@@ -12,7 +12,7 @@ describe('trumpTime', function() {
     // Comey was in office for roughly 110 days
     const oneHundredTenDays = moment.duration(110, 'days').asMilliseconds();
     const comeys = trumpTime(oneHundredTenDays, 'comey');
-    assert.equal(1, Math.round(comeys), 'one hundred and ten days is roughly 1 comey');
+    assert.equal(Math.round(comeys), 1, 'one hundred and ten days is roughly 1 comey');
   });
 
   it('can convert with start and end dates', function() {
@@ -22,6 +22,6 @@ describe('trumpTime', function() {
     const start = moment('2017-01-20 12:00');
     const end = moment('2017-05-09').endOf('day');
     const comeys = trumpTime(start, end, 'comey');
-    assert.equal(1, comeys, `Using Comey's start/end date & time for is equal to 1 comey`);
+    assert.equal(comeys, 1, `Using Comey's start/end date & time for is equal to 1 comey`);
   });
 });
