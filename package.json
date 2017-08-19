@@ -4,5 +4,8 @@
   "description": "See time in terms of the Trump presidency",
   "main": "index.js",
   "author": "Chad Carbert",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.18.1"
+  }
 }
