@@ -1,0 +1,8 @@
+{
+  "name": "trump-time-units",
+  "version": "1.0.0",
+  "description": "See time in terms of the Trump presidency",
+  "main": "index.js",
+  "author": "Chad Carbert",
+  "license": "MIT"
+}
