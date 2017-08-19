@@ -9,7 +9,7 @@
   "scripts": {
     "build": "rollup -c",
     "pretest": "npm run build",
-    "test": "mocha"
+    "test": "mocha --compilers js:babel-core/register"
   },
   "dependencies": {
     "moment": "^2.18.1",
