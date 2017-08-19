@@ -7,5 +7,11 @@
   "license": "MIT",
   "dependencies": {
     "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "rollup": "^0.47.6",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-commonjs": "^8.1.0",
+    "rollup-plugin-node-resolve": "^3.0.0"
   }
 }
