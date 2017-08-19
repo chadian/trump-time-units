@@ -22,6 +22,6 @@ describe('trumpTime', function() {
     const start = moment('2017-01-20 12:00');
     const end = moment('2017-05-09').endOf('day');
     const comeys = trumpTime(start, end, 'comey');
-    assert.equal(comeys, 1, `Using Comey's start/end date & time for is equal to 1 comey`);
+    assert.closeTo(comeys, 1, 0.001, `Using Comey's start/end date & time for is equal to ~1 comey`);
   });
 });
