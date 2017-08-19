@@ -1,4 +1,4 @@
-# trump-time-units
+# trump-time-units [![Build Status](https://travis-ci.org/chadian/trump-time-units.svg?branch=master)](https://travis-ci.org/chadian/trump-time-units)
 An npm module that aims to help put into perspective the new phenomenon of
 time under Trump. Time seems to move both quickly and slowly leading to many
 questions on Trump's effect on time. Until further research can be done this
@@ -28,7 +28,7 @@ project aims to compare various *trump time units* against constant *real time*.
 
 ## Examples
 Use [`moment`](https://momentjs.com/) as a helper to get things into a usable format
-```
+```js
 const moment = require('moment');
 const trumpTimeUnits = require('trump-time-units');
 
