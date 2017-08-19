@@ -12,19 +12,20 @@ project aims to compare various *trump time units* against constant *real time*.
 - `priebus`
 - `spicer`
 - `flynn`
+- `scaramucci`
 
 ### `trumpTimeUnits` with start and end dates
 `trumpTimeUnits(start, end, units)`
 
 - @param { `Date`|`Moment` } `start` - Start date, can be a javascript date object or moment date object
 - @param { `Date`|`Moment` } `end` - End date, can be a javascript date object or moment date object
-- @param { String } `units` One of the available units (see above)
+- @param { `String` } `units` One of the available units (see above)
 
 ### `trumpTimeUnits` with duration in milliseconds
 `trumpTimeUnits(duration, units)`
 
-- @param { Number } `duration` - The length of time in **milliseconds**
-- @param { String } `units` - One of the available units (see above)
+- @param { `Number` } `duration` - The length of time in **milliseconds**
+- @param { `String` } `units` - One of the available units (see above)
 
 ## Examples
 Use [`moment`](https://momentjs.com/) as a helper to get things into a usable format
