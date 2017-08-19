@@ -1,4 +1,4 @@
-# trump-time-units [![Build Status](https://travis-ci.org/chadian/trump-time-units.svg?branch=master)](https://travis-ci.org/chadian/trump-time-units)
+# trump-time-units [![Build Status](https://travis-ci.org/chadian/trump-time-units.svg?branch=master)](https://travis-ci.org/chadian/trump-time-units) [![npm version](https://badge.fury.io/js/trump-time-units.svg)](https://badge.fury.io/js/trump-time-units)
 An npm module that aims to help put into perspective the new phenomenon of
 time under Trump. Time seems to move both quickly and slowly leading to many
 questions on Trump's effect on time. Until further research can be done this
