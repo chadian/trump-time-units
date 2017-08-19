@@ -2,13 +2,26 @@
   "name": "trump-time-units",
   "version": "1.0.0",
   "description": "See time in terms of the Trump presidency",
-  "main": "index.js",
+  "main": "dist/trump-time-units.cjs.js",
+  "module": "dist/trump-time-units.esm.js",
   "author": "Chad Carbert",
   "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "pretest": "npm run build",
+    "test": "mocha"
+  },
   "dependencies": {
-    "moment": "^2.18.1"
+    "moment": "^2.18.1",
+    "ramda": "^0.24.1"
   },
   "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
     "rollup": "^0.47.6",
     "rollup-plugin-babel": "^3.0.2",
     "rollup-plugin-commonjs": "^8.1.0",
