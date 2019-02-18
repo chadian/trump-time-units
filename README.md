@@ -41,13 +41,14 @@ console.log(`20 days is ${trumpTimeUnits(twentyDays, 'scaramucci')} scaramucci's
 // using a start and end date
 const start = new Date('2017-01-01');
 const end = new Date('2017-07-04');
-console.log(`
-Between Janauary 1, 2017
-and July 4, 2017
-is ${trumpTimeUnits(start, end, 'comey')} yates's`);
+console.log(
+  `Between Janauary 1, 2017
+  and July 4, 2017
+  is ${trumpTimeUnits(start, end, 'comey')} comey's`
+);
 // » Between Janauary 1, 2017
 // and July 4, 2017
-// is 1.6810049487883312 yates's
+// is 1.6810049487883312 comey's
 ```
 
 ## Additional Resources
